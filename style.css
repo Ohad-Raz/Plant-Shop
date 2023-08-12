@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  overflow: auto;
+}
+
+.containerGrid {
+  width: 99%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 14% 29% 29% 29%;
+  grid-template-rows: 8% 15% 15% 15% 15% 15% 15% 8%;
+  grid-template-areas:
+    "headr headr headr headr"
+    "sidebar  main main main"
+    "sidebar  main main main"
+    "sidebar  main main main"
+    "sidebar main main main"
+    "sidebar main main main"
+    "sidebar main main main"
+    "footr footr footr footr";
+}
+
+.headr {
+  background-color: #90d5ec;
+  background-image: linear-gradient(315deg, #90d5ec 0%, #e4fbff 74%);
+  grid-area: headr;
+}
+.main {
+  background-image: url(Photos/safaryBG.jpg);
+  grid-area: sidebar;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: main;
+}
+
+.sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #90d5ec;
+  background-image: linear-gradient(315deg, #90d5ec 0%, #e4fbff 74%);
+  grid-area: sidebar;
+  font-size: 1.6em;
+}
+
+.footr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #90d5ec;
+  background-image: linear-gradient(315deg, #90d5ec 0%, #e4fbff 74%);
+  grid-area: footr;
+  border: 0.3vh solid #90d5ec;
+  height: 112%;
+  border-radius: 0.5vh;
+}
+.navbar {
+  background-color: #90d5ec;
+  background-image: linear-gradient(315deg, #90d5ec 0%, #e4fbff 74%);
+  border: 0.3vh solid #90d5ec;
+  height: 98.5%;
+  border-radius: 0.5vh;
+  font-size: 1.6em;
+}
+
+.IconNav {
+  width: 8vw;
+  height: 16vh;
+}
+
+.main {
+  background-image: url(Photos/SNOWYtrees.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: main;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  column-gap: 2%;
+  row-gap: 2%;
+}
+
+.CardImg1,
+.CardImg2,
+.CardImg3,
+.CardImg4,
+.CardImg5 {
+  height: 33vh;
+  width: 26vw;
+  border-radius: 5px 5px 0 0;
+}
+
+.IconNav {
+  width: 8vh;
+  height: 8vh;
+}
+body {
+  background-color: #90d5ec;
+  background-image: linear-gradient(315deg, #90d5ec 0%, #e4fbff 74%);
+}
+
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+  width: 26vw;
+  border-radius: 5px;
+  top: 5%;
+  margin-bottom: 6%;
+}
+
+.card:hover {
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.342),
+    0 15px 30px 0 rgba(0, 0, 0, 0.233), 0 15px 30px 0 rgba(0, 0, 0, 0.253);
+}
+
+.ContainerCard {
+  padding: 2px 16px;
+  width: 100%;
+  background-color: azure;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+}
+.ContainerCard:hover {
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.342),
+    0 15px 30px 0 rgba(0, 0, 0, 0.233), 0 15px 30px 0 rgba(0, 0, 0, 0.253);
+}
+.ListofContinents {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.EmailLogo {
+  height: 10vh;
+}
+.Cat {
+  height: 9vh;
+}
+.linkedin {
+  height: 9vh;
+}
